@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: shainex2002/spring-boot-mongo
+        image: shainex2002/spring-boot-docker
         ports:
         - containerPort: 8080
         env:
